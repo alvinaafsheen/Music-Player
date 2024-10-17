@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+body 
+{
+    background-color: rgb(202, 179, 149);   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Playwrite DE Grund", cursive;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li{
+    padding: 0 12px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #433f3f;
+  }
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.about{
+    background-color: black;
+    color: white;
+    width: 65%;
+    height: 23px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 20px;
+    padding: 45px 45px;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: height 2s;
+    overflow-y: hidden; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    
+}
+
+.about:hover{
+    height:448px ;
+    scrollbar-width: none; /* Width of the scrollbar */
+    scrollbar-color: white black; /* Color of the scrollbar thumb and track */
+    overflow-y: auto;
+}
+#img{
+ position: absolute;
+ right: 6vw;
+ height: 56%;
+ width:350px;
+ border-radius: 5px;
+ box-shadow: 10px 10px 4px rgb(43, 43, 43); 
+}
+.bottom{
+    position: fixed;
+    width: 100%;
+    height: 240px;
+    background-color: black;
+    color:white;
+    bottom: 0;
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#head{
+    position: absolute;
+    top:30px;
+}
+#head1{
+    position: absolute;
+    bottom:40px;
+    background-color:  rgb(202, 179, 149);
+    color: black;
+    padding:2px 15px;
+    border-radius: 4px;
+  
+}
+

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+body 
+{
+    background-color: rgb(202, 179, 149);   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Playwrite DE Grund", cursive;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li{
+    padding: 0 12px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #433f3f;
+  }
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 67.7vh;
+    background-color: black;
+    color: white;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg.jpg');
+   background-size: cover;
+}
+.songItemContainer
+{
+    margin-top:50px;
+}
+.songitem{
+    height: 50px;
+    display:flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+}  
+.songitem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 4px;
+}
+.timestamp{
+    margin: 0 20px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color:white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+   
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+#mastersongname
+{
+    font-size: 20px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+#update{
+    position: absolute;
+    left: 7vw;
+    top: 24px;
+}
+#finalduration{
+    position: absolute;
+    right: 7vw;
+    top: 24px;
+}
+
